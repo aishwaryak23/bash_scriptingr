@@ -263,7 +263,7 @@ for i in {0..6}; do echo "$i: ${snacks[$i]}"; done
 declare -A office
 office[city]="San Francisco"
 office["building name"]="HQ West"
-echo ${office["building name"]} is in ${office[city]}"
+echo ${office["building name"]} is in ${office[city]}
 ```
 
 ## 03_01 Conditional statements with the 'if' keyword
@@ -412,7 +412,7 @@ animal="dog"
 case $animal in
     bird) echo "Avian";;
     dog|puppy) echo "Canine";;
-    *) echo "No match!
+    *) echo "No match!"
 esac
 ```
 
